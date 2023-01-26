@@ -1,5 +1,5 @@
 # Define Sort
-def sort(nums):
+def bubble_sort(nums):
 
     # Create Nested Loop
     for i in range(len(nums)-1,0,-1):
@@ -13,6 +13,6 @@ def sort(nums):
 
 # Present Array Values
 nums = [82, 24, 25, 12, 34, 26, 94, 55, 71, 8]
-sort(nums)
+bubble_sort(nums)
 
 print(nums)

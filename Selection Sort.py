@@ -1,5 +1,5 @@
 # Define Sort
-def sort(nums):
+def selection_sort(nums):
 
     # Create Nested Loop
     for i in range(9):
@@ -16,6 +16,6 @@ def sort(nums):
 
 # Present Array Values
 nums = [82, 24, 25, 12, 34, 26, 94, 55, 71, 8]
-sort(nums)
+selection_sort(nums)
 
 print(nums)
