@@ -28,3 +28,7 @@ def partition(nums, left, right):
     return i
 
 # Present Array Values
+nums = [82, 24, 25, 12, 34, 26, 94, 55, 71, 8]
+quick_sort(nums, 0, len(nums) - 1)
+
+print(nums)
