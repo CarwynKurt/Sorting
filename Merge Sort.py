@@ -5,6 +5,9 @@ def merge_sort(nums):
         left_array = nums[:len(nums) // 2]
         right_array = nums[len(nums) // 2:]
 
-# Recursion
+    # Recursion
+        merge_sort(left_array)
+        merge_sort(right_array)
+
 # Merge
 # Present Array Values
