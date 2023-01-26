@@ -15,3 +15,7 @@ def sort(nums):
         print(nums)
 
 # Present Array Values
+nums = [82, 24, 25, 12, 34, 26, 94, 55, 71, 8]
+sort(nums)
+
+print(nums)
