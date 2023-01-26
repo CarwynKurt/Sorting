@@ -1,6 +1,5 @@
-# Define Sort
+# Define Selection Sort
 def selection_sort(nums):
-
     # Create Nested Loop
     for i in range(9):
         minpos = i
